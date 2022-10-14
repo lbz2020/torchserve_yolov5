@@ -88,6 +88,8 @@ docker pull pytorch/torchserve
 
 注意：为什么不直接使用官方提供的镜像呢？因为官方提供的镜像里面只提供最基本的python依赖包。我们在写`handler`文件的时候一般都会用到其他依赖的，例如opencv等。这些依赖都是官方docker镜像没有提供的。后面我会做一个公开的镜像放在dockerhub上，以便供大家拉取。
 
+20221014更新：https://github.com/pytorch/serve/tree/master/model-archiver#model-specific-custom-python-requirements
+
 
 
 1.假设我们都下载并安装了[docker](https://www.docker.com/)
